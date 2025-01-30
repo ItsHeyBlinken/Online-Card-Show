@@ -3,19 +3,49 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
+    background: #333;
+    color: #fff;
 }
 
 header {
     background: #333;
     color: #fff;
     padding: 40px 20px;
+    border-bottom: 1px solid #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+header .header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+header .header-content h1 {
+    margin: 0;
+}
+
+header .header-content p {
+    margin: 10px 0 0;
+}
+
+#header-logo {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 20px;
 }
 
 .cta-button {
     display: inline-block;
     margin-top: 10px;
     padding: 10px 20px;
-    background: #ff6600;
+    background: #855331;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -33,7 +63,7 @@ section {
 
 #signup button {
     padding: 10px 20px;
-    background: #ff6600;
+    background: #855331;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -42,13 +72,28 @@ section {
 footer {
     background: #333;
     color: #fff;
+    margin: 0 auto;
     padding: 10px;
+    border-top: 1px solid #fff;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#footer-logo {
+    width: 150px;
+    height: auto;
+    display: block;
+    border-radius: 50%;
+    margin-right: 10px;
 }
 
 #pricing {
     text-align: center;
     padding: 50px 0;
-    background-color: #f9f9f9;
+    background-color: #333;
+    color: #fff;
 }
 
 .pricing-box {
@@ -56,7 +101,7 @@ footer {
     width: 30%;
     margin: 0 1%;
     padding: 20px;
-    border: 1px solid #5a9bd1;
+    border: 1px solid black;
     border-radius: 10px;
     background-color: #fff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
