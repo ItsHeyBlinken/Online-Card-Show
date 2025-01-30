@@ -8,10 +8,10 @@ body {
 }
 
 header {
-    background: #575454;
+    background: #006e6e;
     color: #fff;
     padding: 40px 20px;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #ddd;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
@@ -70,7 +70,7 @@ section {
 }
 
 footer {
-    background: #333;
+    background: #02a7a7;
     color: #fff;
     margin: 0 auto;
     padding: 10px;
