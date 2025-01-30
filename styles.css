@@ -44,3 +44,42 @@ footer {
     color: #fff;
     padding: 10px;
 }
+
+#pricing {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.pricing-box {
+    display: inline-block;
+    width: 30%;
+    margin: 0 1%;
+    padding: 20px;
+    border: 1px solid #5a9bd1;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.pricing-box h3 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.pricing-box p {
+    font-size: 20px;
+    color: #666;
+}
+
+.pricing-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.pricing-box ul li {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+}
