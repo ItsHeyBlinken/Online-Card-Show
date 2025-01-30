@@ -3,12 +3,12 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-    background: #333;
+    background: #706868;
     color: #fff;
 }
 
 header {
-    background: #333;
+    background: #575454;
     color: #fff;
     padding: 40px 20px;
     border-bottom: 1px solid #fff;
@@ -45,7 +45,7 @@ header .header-content p {
     display: inline-block;
     margin-top: 10px;
     padding: 10px 20px;
-    background: #855331;
+    background: #e47932;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -63,7 +63,7 @@ section {
 
 #signup button {
     padding: 10px 20px;
-    background: #855331;
+    background: #e47932;
     color: #fff;
     border: none;
     cursor: pointer;
@@ -92,19 +92,22 @@ footer {
 #pricing {
     text-align: center;
     padding: 50px 0;
-    background-color: #333;
+    background-color: #4d4b4b;
     color: #fff;
+    border: 1px solid #fff;
+    box-shadow: 0 2px 5px rgba(117, 78, 78, 0.1);
 }
 
 .pricing-box {
     display: inline-block;
     width: 30%;
+    color: black;
     margin: 0 1%;
     padding: 20px;
     border: 1px solid black;
     border-radius: 10px;
     background-color: #fff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 5px rgba(117, 78, 78, 0.1);
 }
 
 .pricing-box h3 {
@@ -115,7 +118,7 @@ footer {
 
 .pricing-box p {
     font-size: 20px;
-    color: #666;
+    color: #161616;
 }
 
 .pricing-box ul {
@@ -126,5 +129,5 @@ footer {
 .pricing-box ul li {
     margin: 10px 0;
     font-size: 16px;
-    color: #555;
+    color: #161616;
 }
