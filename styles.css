@@ -35,9 +35,9 @@ body {
 }
 
 .logo {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--primary-color);
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
 }
 
 .nav-links a {
