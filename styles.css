@@ -362,8 +362,20 @@ footer {
         font-size: 2.5rem;
     }
     
-    .nav-links {
-        display: none;
+    .footer-content {
+        font-size: 0.875rem;
+      }
+    .footer-section h4 {
+        font-size: 1.125rem;
+    }
+    .footer-section a {
+        font-size: 0.875rem;
+    }
+    .footer-content {
+        padding: 2rem 1rem;
+    }
+    .footer-bottom {
+        margin-top: 1rem;
     }
     
     .hero-stats {
@@ -374,6 +386,18 @@ footer {
     .pricing-card.popular {
         transform: none;
     }
+
+    .hero img {
+        max-width: 300px;
+        height: auto;
+      }
+      .navbar {
+        padding: 1rem 2rem;
+      }
+      .nav-links a {
+        font-size: 1rem;
+        margin-left: 1rem;
+      }
 }
 
 /* Animations */
