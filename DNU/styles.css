@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: #706868;
+    color: #fff;
+}
+
+header {
+    background: #006e6e;
+    color: #fff;
+    padding: 40px 20px;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+header .header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+header .header-content h1 {
+    margin: 0;
+}
+
+header .header-content p {
+    margin: 10px 0 0;
+}
+
+#header-logo {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #e47932;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+#signup input {
+    padding: 10px;
+    width: 250px;
+    margin-right: 10px;
+}
+
+#signup button {
+    padding: 10px 20px;
+    background: #e47932;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background: #02a7a7;
+    color: #fff;
+    margin: 0 auto;
+    padding: 10px;
+    border-top: 1px solid #fff;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#footer-logo {
+    width: 150px;
+    height: auto;
+    display: block;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#pricing {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #4d4b4b;
+    color: #fff;
+    border: 1px solid #fff;
+    box-shadow: 0 2px 5px rgba(117, 78, 78, 0.1);
+}
+
+.pricing-box {
+    display: inline-block;
+    width: 30%;
+    color: black;
+    margin: 0 1%;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(117, 78, 78, 0.1);
+}
+
+.pricing-box h3 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.pricing-box p {
+    font-size: 20px;
+    color: #161616;
+}
+
+.pricing-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.pricing-box ul li {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #161616;
+}
