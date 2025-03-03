@@ -31,6 +31,7 @@ body {
     position: fixed;
     width: 100%;
     top: 0;
+    height: 80px;
     z-index: 1000;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
@@ -79,7 +80,7 @@ body {
     box-shadow: var(--card-shadow);
 }
 .hero-content {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -129,18 +130,21 @@ body {
 .hero-stats {
     display: flex;
     justify-content: center;
-    gap: 4rem;
-    margin-top: 4rem;
+    gap: 1rem;
+    margin-top: 1rem;
 }
 
 .stat {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0.5rem;
 }
 
 .stat-number {
     font-size: 2.5rem;
     font-weight: 700;
+    margin-bottom: 0.5rem;
 }
 
 .stat-label {
@@ -168,13 +172,14 @@ body {
     margin: 0 auto;
 }
 
-.feature-card {;
+.feature-card {
     background: linear-gradient(135deg, #b5a8d5 0%, #2a4b55 100%);
     padding: 2rem;
     border-radius: 1rem;
     box-shadow: var(--card-shadow);
     text-align: center;
     transition: transform 0.3s ease;
+    margin: 0.5rem;
 }
 
 .feature-card:hover {
