@@ -27,7 +27,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1.5rem 5%;
-    background: linear-gradient(135deg, #75afa7 0%, #2a4b55 100%);
+    background: linear-gradient(135deg, #b5a8d5 0%, #2a4b55 100%);
     position: fixed;
     width: 100%;
     top: 0;
@@ -63,7 +63,7 @@ body {
 /* Hero Section */
 .hero {
     padding: 8rem 5% 4rem;
-    background: linear-gradient(135deg, #1f1f29 0%, #221bb4 100%);
+    background: linear-gradient(135deg, #1f1f29 0%, #211C84 100%);
     color: white;
     text-align: center;
     min-height: 100vh;
@@ -169,7 +169,7 @@ body {
 }
 
 .feature-card {;
-    background: linear-gradient(135deg, #759aaf 0%, #2a3e55 100%);
+    background: linear-gradient(135deg, #b5a8d5 0%, #2a4b55 100%);
     padding: 2rem;
     border-radius: 1rem;
     box-shadow: var(--card-shadow);
@@ -208,7 +208,7 @@ body {
 }
 
 .pricing-card {
-    background: linear-gradient(135deg, #759aaf 0%, #2a3e55 100%);
+    background: linear-gradient(135deg, #b5a8d5 0%, #2a4b55 100%);
     padding: 2rem;
     border-radius: 1rem;
     box-shadow: var(--card-shadow);
@@ -317,7 +317,7 @@ body {
 
 /* Footer */
 footer {
-    background: linear-gradient(135deg, #75afa7 0%, #2a4b55 100%);
+    background: linear-gradient(135deg, #b5a8d5 0%, #2a4b55 100%);
     color: white;
     padding: 4rem 5% 2rem;
 }
