@@ -20,6 +20,7 @@
         <div class="nav-links">
             <a href="#features">Features</a>
             <a href="#pricing">Pricing</a>
+            <a href="#donation">Support</a>
             <a href="#contact">Stay Updated</a>
             <a href="https://x.com/OnlineCardShow" target="_blank"><i class="fab fa-x-twitter"></i></a>
             <a href="https://www.instagram.com/online.card.show/" target="_blank"><i class="fab fa-instagram"></i></a>
@@ -143,7 +144,23 @@
             </div>
         </div>
     </section>
-
+    
+    <section id="donation" class="donation" >
+        <h2>Support the Launch</h2>
+        <p>If you’d like to support the Online Card Show before we launch, we’re accepting donations through:</p>
+        <div class="donation-method">
+            <p>
+                Venmo: <code id="venmoHandle">@BytesByBlinken</code>
+                <button onclick="copyToClipboard('venmoHandle', this)">Copy</button>
+                <span class="copied-message"></span>
+            </p>
+            <p>
+                CashApp: <code id="cashappHandle">$BytesByBlinken</code>
+                <button onclick="copyToClipboard('cashappHandle', this)">Copy</button>
+                <span class="copied-message"></span>
+            </p>
+        </div>
+    </section>
 
     <section id="contact" class="contact">
         <h2>Want to stay updated?</h2>
@@ -184,6 +201,15 @@
             <p>&copy; 2025 Online Card Show. All rights reserved.</p>
         </div>
     </footer>
-
+    <script>
+        function copyToClipboard(id, button) {
+        const text = document.getElementById(id).textContent;
+        navigator.clipboard.writeText(text).then(() => {
+            const msg = button.nextElementSibling;
+            msg.textContent = "Copied!";
+            setTimeout(() => msg.textContent = "", 2000);
+        });
+    }
+    </script>
 </body>
 </html>

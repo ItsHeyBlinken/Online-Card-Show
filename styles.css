@@ -273,6 +273,84 @@ body {
     background: var(--secondary-color);
 }
 
+/* Donation Section */
+
+
+.donation {
+    padding: 6rem 5%;
+    width: 100%;
+    background: linear-gradient(135deg, #1f1f29 0%, #211C84 100%);
+    text-align: center;
+}
+
+.donation-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 3rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+    box-shadow: var(--card-shadow);
+    text-align: center;
+}
+
+.donation h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.donation p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    color: var(--light-text);
+    text-align: center;
+}
+
+.donation-method {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.donation-method p {
+    font-size: 1rem;
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.donation-method code {
+    background: linear-gradient(135deg, #1f1f29 0%, #211C84 100%);
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.375rem;
+    font-family: 'Courier New', Courier, monospace;
+    user-select: all;
+}
+
+.donation-method button {
+    background: linear-gradient(135deg, #1f1f29 0%, #211C84 100%);
+    border: none;
+    color: var(--text-color);
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.donation-method button:hover {
+    background: var(--secondary-color);
+}
+
+.copied-message {
+    font-size: 0.875rem;
+    color: var(--primary-color);
+    margin-left: 0.5rem;
+}
+
 /* Contact Section */
 .contact {
     padding: 6rem 5%;
@@ -363,6 +441,15 @@ footer {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+
+/* Responsive Design for Donation Section */
+@media (max-width: 600px) {
+    .donation-method {
+    flex-direction: column;
+    gap: 1.5rem;
+    }
+    }
+    
 /* Responsive Design */
 @media (max-width: 768px) {
     .hero h1 {
