@@ -275,6 +275,19 @@ body {
 
 /* Donation Section */
 
+.donation-pitch {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background: linear-gradient(135deg, #b5a8d5 0%, #2a4b55 100%);
+    box-shadow: var(--card-shadow);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.donation-pitch p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
 
 .donation {
     padding: 6rem 5%;
@@ -331,7 +344,7 @@ body {
 }
 
 .donation-method button {
-    background: linear-gradient(135deg, #1f1f29 0%, #211C84 100%);
+    background: var(--primary-color);
     border: none;
     color: var(--text-color);
     padding: 0.4rem 0.8rem;
@@ -349,6 +362,21 @@ body {
     font-size: 0.875rem;
     color: var(--primary-color);
     margin-left: 0.5rem;
+}
+
+.donation-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+}
+
+.donation-btn:hover {
+    background: var(--secondary-color);
 }
 
 /* Contact Section */
