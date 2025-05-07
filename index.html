@@ -52,7 +52,7 @@
             </div>
             <br>
             <div class="donation-pitch">
-                <p>Help launch the next big thing in card collecting! Your donation powers our platform — and gets you early access perks like discounted subscriptions and the exclusive Founding Member Badge!</p>
+                <h3>Help launch the next big thing in card collecting! Your donation powers our platform — and gets you early access perks like discounted subscriptions and the exclusive Founding Member Badge!</h3>
                 <a href="#donation" class="donation-btn">Support the Launch</a>
             </div>            
         </div>
@@ -61,11 +61,6 @@
     <section id="features" class="features">
         <h2>Features</h2>
         <div class="feature-grid">
-            <div class="feature-card">
-                <i class="fas fa-store"></i>
-                <h3>Storefronts</h3>
-                <p>Customize your own storefront to showcase your collection.</p>
-            </div>
             <div class="feature-card">
                 <i class="fas fa-search"></i>
                 <h3>Search</h3>
@@ -81,123 +76,135 @@
                 <h3>Messaging</h3>
                 <p>Communicate with buyers and sellers directly through our platform.</p>
             </div>
-            <div class="feature-card">
-                <i class="fas fa-bullhorn"></i>
-                <h3>Marketing</h3>
-                <p>Access to marketing tools to help you grow your business.</p>
-            </div>
         </div>
     </section>
     
 
     <section id="pricing" class="pricing">
         <h2>Simple Transparent Pricing</h2>
-        <div class="pricing-grid">
-            <div class="pricing-card">
-                <h3>Basic</h3>
-                <div class="price">$0/month</div>
-                <ul>
-                    <li>50 Listings</li>
-                    <li>Basic StoreFront</li>
-                    <li>Standard Search Placement</li>
-                    <li>Buyer Messaging</li>
-                    <li>Basic Analytics</li>
-                </ul>    
-                <h4>Who is it for?</h4>
-                <p>Sellers who want to explore the platform.</p>
-            </div>
-            <div class="pricing-card">
-                <h3>Starter</h3>
-                <div class="price">$50/month</div>
-                <ul>
-                    <li>250 Listings</li>
-                    <li>Basic Storefront Customization</li>
-                    <li>Standard Search Placement</li>
-                    <li>Buyer Messaging</li>
-                    <li>Basic Analytics</li>
-                </ul>    
-                <h4>Who is it for?</h4>
-                <p>Casual, small-scale seller, and collectors.</p>
-            </div>
-            <div class="pricing-card">
-                <h3>Pro</h3>
-                <div class="price">$100/month</div>
-                <ul>
-                    <li>750 Listings</li>
-                    <li>Enhanced Storefront Customization</li>
-                    <li>Priority Search Placement</li>
-                    <li>Buyer Messaging</li>
-                    <li>Advanced Analytics</li>
-                    <li>Access to Marketing Tools</li>
-                </ul>
-                <h4>Who is it for?</h4>
-                <p>Growing sellers or hobbyists.</p>
-            </div>
-            <div class="pricing-card">
-                <h3>Premium Tier</h3>
-                <div class="price">$300/month</div>
-                <ul>
-                    <li>Unlimited Listings</li>
-                    <li>Fully Customizable Storefront</li>
-                    <li>Featured Search Placement</li>
-                    <li>Buyer Messaging</li>
-                    <li>Full Sales Tracking and Analytics</li>
-                    <li>Access to Marketing Tools</li>
-                </ul>
-                <h4>Who is it for?</h4>
-                <p>Professional or high-volume sellers.</p>
-            </div>
-        </div>
+        <div class="donation-tiers-table-wrapper">
+            <table class="donation-tiers-table">
+              <thead>
+                <tr>
+                  <th>Plan</th>
+                  <th>Price</th>
+                  <th>Features</th>
+                  <th>Who is it for?</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td data-label="Plan">Basic</td>
+                  <td data-label="Price">$0/month</td>
+                  <td data-label="Features">
+                    50 Listings<br>
+                    Buyer Messaging<br>
+                    Basic Analytics
+                  </td>
+                  <td data-label="Who is it for?">Sellers who want to explore the platform.</td>
+                </tr>
+                <tr>
+                  <td data-label="Plan">Starter</td>
+                  <td data-label="Price">$50/month</td>
+                  <td data-label="Features">
+                    250 Listings<br>
+                    Buyer Messaging<br>
+                    Basic Analytics
+                  </td>
+                  <td data-label="Who is it for?">Casual, small-scale sellers and collectors.</td>
+                </tr>
+                <tr>
+                  <td data-label="Plan">Pro</td>
+                  <td data-label="Price">$100/month</td>
+                  <td data-label="Features">
+                    750 Listings<br>
+                    Buyer Messaging<br>
+                    Advanced Analytics<br>
+                  </td>
+                  <td data-label="Who is it for?">Growing sellers or hobbyists.</td>
+                </tr>
+                <tr>
+                  <td data-label="Plan">Premium</td>
+                  <td data-label="Price">$300/month</td>
+                  <td data-label="Features">
+                    Unlimited Listings<br>
+                    Buyer Messaging<br>
+                    Full Sales Tracking and Analytics<br>
+                  </td>
+                  <td data-label="Who is it for?">Professional or high-volume sellers.</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          
     </section>
     
     <section id="donation" class="donation">
         <h2>Support the Launch</h2>
         <p>If you’d like to support the Online Card Show before we launch, we’re accepting donations through:</p>
-        
+        <!-- Payment Methods -->
         <div class="donation-method">
-            <p>
-                Venmo: <code id="venmoHandle">@BytesByBlinken</code>
-                <button onclick="copyToClipboard('venmoHandle', this)">Copy</button>
-                <span class="copied-message"></span>
-            </p>
-            <p>
-                CashApp: <code id="cashappHandle">$BytesByBlinken</code>
-                <button onclick="copyToClipboard('cashappHandle', this)">Copy</button>
-                <span class="copied-message"></span>
-            </p>
-        </div>
-    
-        <h3>Donation Tiers</h3>
-        <div class="donation-tiers">
-            <div class="donation-tier">
-                <h4>$100+ Donation</h4>
-                <ul>
-                    <li>50% off Premium Subscription for 6 months (Save $900)</li>
-                    <li>Founding Member Badge</li>
-                </ul>
+            <div class="payment-option">
+                <p>
+                    Venmo: <a href="https://venmo.com/BytesByBlinken" target="_blank" id="venmoHandle">@BytesByBlinken</a>
+                </p>
             </div>
-            <div class="donation-tier">
-                <h4>$50 - $99.99 Donation</h4>
-                <ul>
-                    <li>50% off Pro Subscription for 6 months (Save $300)</li>
-                    <li>Founding Member Badge</li>
-                </ul>
-            </div>
-            <div class="donation-tier">
-                <h4>$25 - $49.99 Donation</h4>
-                <ul>
-                    <li>50% off Starter Subscription for 6 months (Save $150)</li>
-                    <li>Founding Member Badge</li>
-                </ul>
-            </div>
-            <div class="donation-tier">
-                <h4>Under $25 Donation</h4>
-                <ul>
-                    <li>Founding Member Badge</li>
-                </ul>
+            <div class="payment-option">
+                <p>
+                    CashApp: <a href="https://cash.app/$BytesByBlinken" target="_blank" id="cashappHandle">$BytesByBlinken</a>
+                </p>
             </div>
         </div>
-    </section>
+
+        <div class="donation-tiers-table-wrapper">
+            <table class="donation-tiers-table">
+              <thead>
+                <tr>
+                  <th>Donation Amount</th>
+                  <th>Perks</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td data-label="Donation Amount">$100+</td>
+                  <td data-label="Perks">50% off first 6 months of Premium (Save $900)<br>Founding Member Badge</td>
+                </tr>
+                <tr>
+                  <td data-label="Donation Amount">$50 - $99.99</td>
+                  <td data-label="Perks">50% off first 6 months of Pro (Save $300)<br>Founding Member Badge</td>
+                </tr>
+                <tr>
+                  <td data-label="Donation Amount">$25 - $49.99</td>
+                  <td data-label="Perks">50% off first 6 months of Starter (Save $150)<br>Founding Member Badge</td>
+                </tr>
+                <tr>
+                  <td data-label="Donation Amount">Under $25</td>
+                  <td data-label="Perks">Founding Member Badge</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <br>
+        <!-- Perk Claim Form -->
+        <div class="contact-form-wrapper">
+            <h3>Claim Your Perks</h3>
+            <p>If you donated via Venmo or CashApp, let us know so we can send your perks!</p>
+            <form class="contact-form" action="https://formsubmit.co/info@onlinecardshow.com" method="POST">
+              <input type="hidden" name="_subject" value="New Donation Submission!">
+              <input type="hidden" name="_next" value="https://onlinecardshow.com/thank-you.html">
+              <input type="text" name="name" placeholder="Name" required>
+              <input type="email" name="email" placeholder="Email" required>
+              <select name="method" required>
+                <option value="">Select Method</option>
+                <option value="Venmo">@BytesByBlinken</option>
+                <option value="CashApp">$BytesByBlinken</option>
+              </select>
+              <input type="text" name="amount" placeholder="Donation Amount (e.g. $50)" required>
+              <textarea name="note" placeholder="Optional Note or Username"></textarea>
+              <button type="submit" class="submit-btn">Submit Donation Info</button>
+            </form>
+          </div>
+        </section>  
 
     <section id="contact" class="contact">
         <h2>Want to stay updated?</h2>
@@ -224,6 +231,7 @@
                 <a href="#features">Features</a>
                 <a href="#pricing">Pricing</a>
                 <a href="#contact">Contact</a>
+                <a href="#donation">Support</a>
             </div>
             <div class="footer-section">
                 <h4>Connect on Socials</h4>
@@ -238,15 +246,5 @@
             <p>&copy; 2025 Online Card Show. All rights reserved.</p>
         </div>
     </footer>
-    <script>
-        function copyToClipboard(id, button) {
-        const text = document.getElementById(id).textContent;
-        navigator.clipboard.writeText(text).then(() => {
-            const msg = button.nextElementSibling;
-            msg.textContent = "Copied!";
-            setTimeout(() => msg.textContent = "", 2000);
-        });
-    }
-    </script>
 </body>
 </html>
