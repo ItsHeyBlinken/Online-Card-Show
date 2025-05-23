@@ -391,6 +391,10 @@ body {
     text-align: center;
 }
 
+.donation-pitch {
+    margin-top: 2rem;
+}
+
 .donation-container {
     max-width: 800px;
     margin: 0 auto;
@@ -815,4 +819,16 @@ footer {
         flex-direction: column;
         gap: 1.5rem;
     }
+}
+
+.video-container {
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.video-container video {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
