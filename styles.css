@@ -35,13 +35,13 @@ body {
     position: fixed;
     width: 100%;
     top: 0;
-    height: 80px;
+    height: 90px;
     z-index: 1000;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .logo {
-    width: 100px;
+    width: 90px;
     height: auto;
     border-radius: 50%;
 }
